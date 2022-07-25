@@ -44,7 +44,7 @@ if (NOT TARGET osal)
     include(FetchContent)
     FetchContent_Declare(
       osal
-      GIT_REPOSITORY      https://github.com/rtlabs-com/osal.git
+      GIT_REPOSITORY      https://github.com/SupermanOfHeiLinPu/osal.git
       GIT_TAG             e960068
       )
     FetchContent_GetProperties(osal)
