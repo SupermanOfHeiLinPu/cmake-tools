@@ -45,7 +45,7 @@ if (NOT TARGET osal)
     FetchContent_Declare(
       osal
       GIT_REPOSITORY      https://github.com/SupermanOfHeiLinPu/osal.git
-      GIT_TAG             e960068
+      GIT_TAG             a573c9c7622dee5319d23619935c521926317df2
       )
     FetchContent_GetProperties(osal)
     if(NOT osal_POPULATED)
